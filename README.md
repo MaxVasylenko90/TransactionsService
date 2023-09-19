@@ -1,6 +1,1 @@
-# TransactionsService
-# TransactionsService
-# TransactionsService
-# TransactionsService
-# TransactionsService
-# TransactionsService
+This is a Spring Boot REST application using HTTP interfaces. This application collects all the transactions coming from some web service, receives the data at HTTP interface, stores it in a MySQL database and makes it available via the HTTP interface. Also this application can work with these transactions (CRUD operations) and also has a search mechanism. The data for each transaction is represented as a Map<String, String> and also has an additional info like id, timestamp etc.
